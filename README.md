@@ -1,4 +1,4 @@
-# 📊 EXECUTIVE SALES ANLYTIICS  Dashboard – Tableau Integration (HTML + Bootstrap)
+# 📊 EXECUTIVE SALES ANLYTIICS  Dashboard – Tableau 
 
 This project presents an interactive **HR Analytics Dashboard** built with **Tableau Public** and embedded seamlessly using **HTML**, **Bootstrap**, and **JavaScript**. It allows users to switch between key HR insights like product data, customer breakdowns, and yearly trends with one-click navigation.
 
@@ -25,11 +25,8 @@ This dashboard aims to visualize key HR analytics data with a clean and responsi
 
 | Technology | Purpose |
 |------------|---------|
-| **HTML5** | Web page structure |
-| **CSS3 / Bootstrap 5** | Styling and responsive layout |
-| **JavaScript** | Dynamic dashboard loading |
+
 | **Tableau Public** | Data visualization (embedded) |
-| **Google Fonts + FontAwesome** | Typography and icons |
 
 ---
 
