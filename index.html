@@ -76,6 +76,25 @@
       height: 541.25px;
       border: none;
     }
+
+    .insight-container {
+      max-width: 1200px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .insight-container h4 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+
+    .list-group-item {
+      font-size: 1.05rem;
+    }
   </style>
 </head>
 <body style="background-color: rgb(255, 194, 103);">
@@ -83,13 +102,34 @@
   <h3>📊 Executive Insights Dashboard</h3>
 
   <div class="dashboard-wrapper">
-    <!-- Left Sidebar – Buttons -->
-
-
     <!-- Power BI Dashboard Embed -->
     <div id="vizContainerModal4">
       <iframe title="product" src="https://app.powerbi.com/reportEmbed?reportId=ce4eab0e-d29e-4761-8fda-3778c5624172&autoAuth=true&ctid=82d0a01d-608b-4667-9790-7ea2d3429dc5" allowFullScreen="true"></iframe>
     </div>
+  </div>
+
+  <!-- Sales Dashboard Insights -->
+  <div class="insight-container">
+    <h4>📈 Key Insights from the Amazon Sales Dashboard</h4>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">🔹 <strong>Top Performing Category:</strong> Electronics consistently generates the highest revenue among all categories.</li>
+      <li class="list-group-item">🔹 <strong>Peak Sales Month:</strong> Sales sharply increase in November due to promotional events like Black Friday.</li>
+      <li class="list-group-item">🔹 <strong>Regional Performance:</strong> Western US states, particularly California, dominate in order volume and sales value.</li>
+      <li class="list-group-item">🔹 <strong>Customer Loyalty:</strong> Repeat customers exhibit higher average order values than new buyers.</li>
+      <li class="list-group-item">🔹 <strong>Opportunity for Growth:</strong> Office Supplies and Home Improvement categories show lower performance, suggesting potential for targeted campaigns.</li>
+    </ul>
+  </div>
+
+  <!-- Churn Dashboard Insights -->
+  <div class="insight-container">
+    <h4>🔍 Key Insights from the Customer Churn Dashboard</h4>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">🔸 <strong>Churn Rate:</strong> The overall customer churn rate stands around 27%, indicating room for retention improvement.</li>
+      <li class="list-group-item">🔸 <strong>High-Risk Profiles:</strong> Month-to-month contract holders are significantly more likely to churn compared to long-term subscribers.</li>
+      <li class="list-group-item">🔸 <strong>Churn Drivers:</strong> Increased customer service calls and unresolved issues are key churn predictors.</li>
+      <li class="list-group-item">🔸 <strong>Tenure Impact:</strong> Customers with longer tenure are less likely to leave, emphasizing the value of early engagement strategies.</li>
+      <li class="list-group-item">🔸 <strong>Payment Method Insight:</strong> Users paying via electronic check show higher churn rates than those on autopay systems.</li>
+    </ul>
   </div>
 
 </body>
