@@ -1,16 +1,16 @@
-# 📊 EXECUTIVE SALES ANLYTIICS  Dashboard – Tableau 
+# 📊 EXECUTIVE SALES ANLYTIICS  Dashboard – Power BI 
 
-This project presents an interactive **HR Analytics Dashboard** built with **Tableau Public** and embedded seamlessly using **HTML**, **Bootstrap**, and **JavaScript**. It allows users to switch between key HR insights like product data, customer breakdowns, and yearly trends with one-click navigation.
+This project presents an interactive **HR Analytics Dashboard** built with **Power BI ** and embedded seamlessly using **HTML**, **Bootstrap**, and **JavaScript**. It allows users to switch between key HR insights like product data, customer breakdowns, and yearly trends with one-click navigation.
 
 ---
 
 ## 🔍 Overview
 
-This dashboard aims to visualize key HR analytics data with a clean and responsive web interface. Users can interact with different Tableau dashboards without leaving the page.
+This dashboard aims to visualize key HR analytics data with a clean and responsive web interface. Users can interact with different Power BI dashboards without leaving the page.
 
 ### 📌 Features
 
-- Embedded **Tableau Public** dashboards for interactive data exploration
+- Embedded **Power BI ** dashboards for interactive data exploration
 - Three main views:
   - 📦 Products Overview
   - 👥 Customer Distribution
@@ -26,13 +26,13 @@ This dashboard aims to visualize key HR analytics data with a clean and responsi
 | Technology | Purpose |
 |------------|---------|
 
-| **Tableau Public** | Data visualization (embedded) |
+| **Power BI ** | Data visualization (embedded) |
 
 ---
 
 ## 🧠 How It Works
 
-1. Three Tableau dashboards are hosted on **Tableau Public**.
+1. Three Power BI dashboards are hosted on **Power BI**.
 2. The HTML file uses a sidebar with buttons to switch between dashboards dynamically.
 3. When a button is clicked, the `loadDashboardModal4(type)` function updates the `object` element with the new dashboard's embed path.
 
